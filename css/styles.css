@@ -59,7 +59,7 @@ border-bottom: 1px solid #ececee
 
 /*----------header---------*/
 .conteiner{
-    width: 1200px; 
+    /*width: 1200px; */
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -310,12 +310,14 @@ color:var(--primery-text-color);
 
 }
 
+
+
+
 /*третя секція*/
 /*--------representation----------*/
 .representation{
 padding-top: 0;
 }
-
 .representation-title{
 text-align: center;
 font-weight: 700;
@@ -324,25 +326,20 @@ line-height: 1.17;
 color: var(--secondary-title-color);
 margin-bottom: 50px;
 }
-
 .representation-item{
 display: flex;
 flex-wrap: wrap;
 margin-left: -30px;
 margin-top: -30px;
 }
-
-
-
 .representation-item-img{
     margin-left: 30px;
     margin-top: 30px;
-    width: calc(100% / 3 - 30px);
+    /*width: calc(100% / 3 - 30px);*/
+    width:100%;
     position: relative;
     overflow: hidden;
     }
-
-
 .representation-top-text{
     text-align: center;
     font-weight: 700;
@@ -356,6 +353,8 @@ margin-top: -30px;
     padding: 24px;
     text-transform: uppercase;
     }
+
+
 
 
     /*--------------------четверта секція  команда------*/
