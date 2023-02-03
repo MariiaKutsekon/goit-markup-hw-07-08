@@ -252,8 +252,10 @@ width: 100%;
 margin-left: 30px;
 margin-top: 30px;
 }
-
 .advantage-item-img{
+    display: none;
+}
+/*.advantage-item-img{
     background-color:var(--color-btn);
     border-radius: 4px;
     height: 120px;
@@ -261,7 +263,7 @@ margin-top: 30px;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-   }
+   }*/
 .advantage-icon{
 
 }
@@ -314,11 +316,9 @@ color:var(--primery-text-color);
 
 /*--------representation----------*/
     
-representation{
-display: none;
-}
 
 
+    
 
     /*--------------------четверта секція  команда------*/
 
