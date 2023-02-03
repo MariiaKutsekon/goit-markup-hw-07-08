@@ -1,0 +1,43 @@
+@media screen and (min-width:768px) {
+    .conteiner{
+    width: 750px; 
+    }
+    
+    .section-hero{
+    padding-top: 112px; 
+    padding-bottom: 204px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(../images/hero.img/hero-bg-tab.jpg);
+    }
+    
+    .pre-title{
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    }
+
+
+    .advantage-title{
+    width: calc(100% / 2 - 60px);
+    margin-left: 30px;
+    margin-top: 30px;
+    }
+
+
+    /*-------------------------------------*/
+    representation{
+        display: none;
+    }
+            
+
+/*-----------------------------------------------*/
+
+    
+    .position{
+        width: calc(100% / 2 - 60px);
+    }
+    .client-item{
+        width: calc(100% / 3 - 30px);
+    }}
+    
