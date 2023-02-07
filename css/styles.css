@@ -94,6 +94,7 @@ width: 26px;
 height: 25px;
 background-color: transparent;
 border: none;
+padding-top: 48px;
 }
 
 .menu-open-icon{
@@ -107,6 +108,9 @@ z-index: 1;
 width: 100vw;
 height: 100vh;
 background-color: #4D5AE5;
+}
+.menu-close{
+    
 }
 .menu-close-icon{
 width: 24px;
@@ -133,11 +137,11 @@ display: block;
 .mob-menu-link{
 
 }
-/*.mob-menu-item:not (:last-child) {
+/*.mob-menu-item{
 margin-bottom: 40px;
-}
-*/
-.mob-menu-item:not(:last-childe):not(:last-childe){
+}*/
+
+.mob-menu-item:not(:last-childe){
 margin-bottom: 40px;
 }
 
