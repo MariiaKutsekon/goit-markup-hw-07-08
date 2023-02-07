@@ -17,7 +17,7 @@
 </head>
 <body>
     
-<!--<header class="header">
+<header class="header">
 <div class="conteiner header-conteiner">
 <nav class="header-navigations">
     <a href="" class="logo link">
@@ -51,8 +51,87 @@ href="tel:+380961111111"><svg class="contacts-icon"
 width="10" height="16">
 <use href="./images/sprite.svg#icon-smartphone2"></use>
 </svg>+38 096 111 11 11</a></li></ul>  
+
+<div class="conteiner">
+<button type="button" class="menu-open">
+<svg class="menu-open-icon" width="26" height="25">
+<use href="./images/sprite.svg#icon-menu-opensprite"></use></svg>
+</button>
 </div>
-</header>-->
+
+<div class="mob-menu">
+<button type="button" class="menu-close">
+<svg class="menu-close-icon" width="8" height="8">
+<use href="./images/sprite.svg#icon-close-mob"></use></svg>
+</button>
+<ul class="mob-menu-list list">
+    <a href="./index.html" class="mob-menu-link link">Studio</a>
+    <li class="mob-menu-item">   
+    </li> 
+    <li class="mob-menu-item">
+    <a href="./portfolio.html" class="mob-menu-link link">Portfolio</a>
+    </li>
+    <li class="mob-menu-item">
+    <a href="" class="mob-menu-link link">Contacts</a>
+    </li>
+     </ul>
+
+    <ul class="mob-menu-contacts list">
+    <li class="mob-contacts-list">
+    <a class="mob-menu-mail mob-menu-contacts-link link" 
+    href="meilto:info@devstudio.com">
+    <svg class="mob-contacts-icon" width="16" height="12">
+    <use href="./images/sprite.svg#icon-envelope2"></use>
+    </svg>info@devstudio.com</a>
+    </li>
+                
+    <li class="mob-contacts-list"> 
+    <a class="mob-menu-tel mob-menu-contacts-link link" 
+    href="tel:+380961111111"><svg class="contacts-icon" 
+    width="10" height="16">
+    <use href="./images/sprite.svg#icon-smartphone2"></use>
+    </svg>+38 096 111 11 11</a></li></ul>  
+
+    
+    <ul class="team-item-list mob-social-list list">
+    <li class="social-item">
+    <a href="" class="social-link">
+    <svg class="social-icon" width="20" height="20">
+    <use href="./images/sprite.svg#icon-instagram"></use>        
+    </svg>
+    </a>
+    </li>
+    <li class="social-item">
+    <a href="" class="social-link">
+    <svg class="social-icon" width="20" height="20">
+    <use href="./images/sprite.svg#icon-twitter"></use>
+    </svg>
+    </a>
+    </li>
+                                           
+    <li class="social-item">
+    <a href="" class="social-link">
+    <svg class="social-icon" width="20" height="20">
+    <use href="./images/sprite.svg#icon-facebook"></use>
+    </svg>
+    </a>
+    </li>
+                                    
+    <li class="social-item">
+    <a href="" class="social-link">
+    <svg class="social-icon" width="20" height="20">
+    <use href="./images/sprite.svg#icon-linkedin"></use>
+    </svg>
+    </a>
+    </li>
+    </ul>
+    </li>
+    </ul>
+
+                
+</div>
+</div>
+</header>
 
 
 <main> 
@@ -160,7 +239,11 @@ width="10" height="16">
 
 <li class="position">
     <img class="img-team"
-    src="./images/img1.jpg" alt="рук проектов" width="270" height="260">
+    src="./images/team/img1.jpg" alt="рук проектов" 
+    srcset="
+    ./images/team/img1.jpg   1x, 
+    ./images/img1-2x.jpg 2x" 
+    width="270" height="260">
     <h3 class="team-name">Mark Guerrero</h3>
     <p class="team-position" lang="en">Product Designer</p> 
 
@@ -168,12 +251,14 @@ width="10" height="16">
 <ul class="team-item-list social-list list">
 <li class="social-item">
     <a href="" class="social-link">
-    <svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-instagram"></use>
+    <svg class="social-icon" width="20" height="20">
+        <use href="./images/sprite.svg#icon-instagram"></use>
     </svg>    </a>
     </li>
 <li class="social-item">
     <a href="" class="social-link">
-    <svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-twitter"></use>
+    <svg class="social-icon" width="20" height="20">
+        <use href="./images/sprite.svg#icon-twitter"></use>
     </svg>   </a>
     </li>
                    
@@ -197,7 +282,11 @@ width="10" height="16">
 
 <li class="position">
     <img class="img-team"
-    src="./images/im.pg.2.jpg" alt="препод 2" width="270" height="260">
+    src="./images/team/im.pg.2.jpg" alt="препод 2" 
+    srcset="
+    ./images/team/im.pg.2.jpg    1x, 
+    ./images/team/im.pg.2-2x.jpg 2x" 
+    width="270" height="260">
     <h3 class="team-name">Tom Ford</h3>
     <p class="team-position" lang="en">Frontend Developer</p>
 <ul class="team-item-list social-list list">
@@ -237,7 +326,11 @@ width="10" height="16">
 
     <li class="position">
     <img class="img-team"
-    src="./images/im.pg.3.jpg"препод 3" 
+    src="./images/team/im.pg.3.jpg" 
+    alt="препод 3"
+    srcset="
+    ./images/team/im.pg.3.jpg   1x, 
+    ./images/team/im.pg.3-2x.jpg 2x" 
     width="270" height="260">
     <h3 class="team-name">Camila Garcia</h3>
     <p class="team-position" lang="en">Marketing</p>
@@ -283,41 +376,46 @@ width="10" height="16">
     </li>                     
     <li class="position">
     <img class="img-team"
-    src="./images/im.pg.4.jpg" alt=" препод 4" width="270" height="260">
+    src="./images/team/im.pg.4.jpg" 
+    alt=" препод 4" 
+    srcset="
+    ./images/team/im.pg.4.jpg    1x, 
+    ./images/team/im.pg.4-2x.jpg 2x"
+    width="270" height="260">
     <h3 class="team-name">Daniel Wilson</h3>
      <p class="team-position" lang="en">UI Designer</p>
-    <ul class="team-item-list social-list list">
+
+<ul class="team-item-list social-list list">
 <li class="social-item">
 <a href="" class="social-link">
 <svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-instagram"></use>
-    
-    </svg>
-    </a>
-    </li>
-    <li class="social-item">
-     <a href="" class="social-link">
-    <svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-twitter"></use>
-    </svg>
-    </a>
-    </li>
+
+</svg>
+</a>
+</li>
+<li class="social-item">
+<a href="" class="social-link">
+<svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-twitter"></use>
+</svg>
+</a>
+</li>
                        
-    <li class="social-item">
-    <a href="" class="social-link">
-    <svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-facebook"></use>
-    </svg>
-     </a>
-    </li>
+<li class="social-item">
+<a href="" class="social-link">
+<svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-facebook"></use>
+</svg>
+</a>
+</li>
                 
-    <li class="social-item">
-    <a href="" class="social-link">
-    <svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-linkedin"></use>
-    </svg>
-     </a>
-    </li>
-    </ul>
-    
-    </li>
-    </ul>
+<li class="social-item">
+<a href="" class="social-link">
+<svg class="social-icon" width="20" height="20"><use href="./images/sprite.svg#icon-linkedin"></use>
+</svg>
+</a>
+</li>
+</ul>
+</li>
+</ul>
 
 </div>
 </section>

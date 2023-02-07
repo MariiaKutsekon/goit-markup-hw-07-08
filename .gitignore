@@ -102,3 +102,5 @@ dist
 
 # TernJS port file
 .tern-port
+.vscode/goit-markup-hw-06-01/
+.vscode/goit-markup-hw-06/

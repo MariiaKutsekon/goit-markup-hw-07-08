@@ -66,39 +66,10 @@ border-bottom: 1px solid #ececee
     font-family: inherit;
  }
  
-.header-link{
-display: block;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--secondary-title-color);
-font-style: normal;
-padding-top: 32px;
-padding-bottom: 32px;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-position: relative;
-}
+
 
 /*----------------контакти верхни --------------*/
-.header-contacts{
-display: flex;
-margin-left: auto;
-}
 
-.contacts-list:not(:last-child){
-margin-right: 50px;
-}
-
-.header-contacts-link{
-display: flex;
-align-items: center;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--primery-text-color);
-font-style: normal;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 /*----------------контакти верхни завершно------------------*/
 .header-conteiner{
 align-items: center;
@@ -112,57 +83,77 @@ display: flex;
     align-items: center;
     display: flex;
 }
-.header-list{
-    align-items: center;
-    display: flex;
-    margin-right: 50px;
+
+.header-list, .contacts-list, 
+.contacts-icon, .header-item{
+    display: none;
 }
-   
-.header-item:not(:last-child){
-    margin-right: 50px;
+.menu-open{
+padding: 0;
+width: 26px;
+height: 25px;
+background-color: transparent;
+border: none;
 }
-.logo-item{
-    margin-right: 93px;
+
+.menu-open-icon{
+stroke: #000;
 }
-.contacts-list{
-justify-content: center;
+
+.mob-menu{
+position: fixed;
+top: 0;
+z-index: 1;
+width: 100vw;
+height: 100vh;
+background-color: #4D5AE5;
+}
+.menu-close-icon{
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background:#E7E9FC; 
+border: 1px solid rgba(0, 0, 0, 0.1);
+display: flex;
 align-items: center;
-cursor: pointer;
-fill: var(--primery-text-color);
+justify-content: center;
+margin-left: auto;
 }
 
-.contacts-icon{
-margin-right: 10px;
-fill: currentColor;
-}
-/*
-.contacts-icon:hover,
-.contacts-icon:focus{
-fill: var(--accent-color);
-}*/
-
-.current::after{
-    content:'' ;
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--accent-color);
-    display: block;
-    bottom: -1px;
-}
-/*---------------ховери та фокус------------------*/
-
-.header-contacts-link:hover,.header-link:hover,
-.header-contacts-link:focus,.header-link:focus,.current-link
-{color:var(--accent-color);
+.mob-menu-list{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: calc(40 px / 36px);
+letter-spacing: 0.02em;
+text-transform: capitalize;
+display: block;
 }
 
-.footer-contacts:hover,.footer-adres:hover,.header-list:hover,
-.footer-contacts:focus,.footer-adres:focus,.header-list:focus{
-color: var(--accent-color);
+.mob-menu-link{
+
+}
+/*.mob-menu-item:not (:last-child) {
+margin-bottom: 40px;
+}
+*/
+.mob-menu-item:not(:last-childe):not(:last-childe){
+margin-bottom: 40px;
 }
 
+.mob-menu-contacts{
+
+}
+.mob-contacts-list{
+
+}
+.mob-menu-mail{
+
+}
+.mob-menu-contacts-link{
+
+}
+.mob-contacts-icon{}
 /*--------------------logo---------------------*/
 
 .logo{
@@ -201,19 +192,27 @@ background-size: cover;
 padding-top: 112px; 
 padding-bottom: 240px;
 text-align: center;
+} 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.box {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+ url(../images/hero.img/img-2x/Dark-mob-bg-2x.jpg);
+ }
 }
 
 .pre-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11;
+line-height: 1.16;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color:var(--primary-title-color);
 margin-bottom: 30px;
 max-width: 700px;
-margin-left: auto;
-margin-right: auto;
+margin-left: 112px 56px 72px;
+/*margin-right: 56px;*/
 font-family: inherit;
 }
 
@@ -292,21 +291,22 @@ background-image: url(../images/img.sec.s/astronaut.svg);
 }
 */
 .advantage-title-text{
+font-family: 'Roboto', sans-serif;
 font-weight: 700;
-line-height: 1.14;
-font-size: 14px;
+line-height: 1.11;
+font-size: 36px;
 color: var(--secondary-title-color);
-text-transform: uppercase;
-margin-bottom: 10px;
+text-transform: capitalize;
+margin-bottom: 8px;
 font-style: normal;
 justify-content: center;
 align-items: center;
 }
 
 .advantage-text{
-font-weight: 400;
-line-height: 1.71;
-font-size: 14px;
+font-weight: 500;
+line-height: 1.5;
+font-size: 16px;
 color:var(--primery-text-color);
 
 }
@@ -349,7 +349,9 @@ position: relative;
 overflow: hidden;
 }
 
-
+.representation{
+    display: none;
+}
 
 .representation-team{
 font-weight: 700;
@@ -464,12 +466,7 @@ fill: currentColor;
 }
 
 
-
-
-
-/*-----footer---*/
-
-
+/*-----------------footer------------------*/
 
 
 
