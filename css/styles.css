@@ -88,6 +88,7 @@ display: flex;
 .contacts-icon, .header-item{
     display: none;
 }
+
 .menu-open{
 padding: 0;
 width: 26px;
@@ -95,6 +96,7 @@ height: 25px;
 background-color: transparent;
 border: none;
 padding-top: 48px;
+padding-bottom: 48px;
 }
 
 .menu-open-icon{
@@ -108,11 +110,13 @@ z-index: 1;
 width: 100vw;
 height: 100vh;
 background-color: #4D5AE5;
+padding-top: 80px;
+padding-left: 40px;
+/*padding-right: 50px;
+*/
 }
+
 .menu-close{
-    
-}
-.menu-close-icon{
 width: 24px;
 height: 24px;
 border-radius: 50%;
@@ -122,8 +126,20 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-left: auto;
-}
+}    
 
+.menu-close-icon{}
+
+/*.mob-conteiner{
+    width: 468px; 
+    height: 100px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: inherit;
+ }
+
+*/
 .mob-menu-list{
 font-family: 'Roboto';
 font-weight: 700;
@@ -132,18 +148,26 @@ line-height: calc(40 px / 36px);
 letter-spacing: 0.02em;
 text-transform: capitalize;
 display: block;
+margin-right: 0px;
+background-color: #188CE8;
+}
+
+.mob-menu-item:not(:last-child){
+margin-bottom: 40px;
 }
 
 .mob-menu-link{
-
+font-weight: 700;  
+font-size: 36px;
+line-height: 1.11;  
+color: #2E2F42;
 }
+
 /*.mob-menu-item{
 margin-bottom: 40px;
 }*/
 
-.mob-menu-item:not(:last-childe){
-margin-bottom: 40px;
-}
+
 
 .mob-menu-contacts{
 
