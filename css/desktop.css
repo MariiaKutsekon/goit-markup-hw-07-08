@@ -1,6 +1,6 @@
 @media screen and (min-width:1200px) {
     .conteiner{
-    width: 1200px; 
+    width: 1440px; 
     }
     /*---------------------*/
 
@@ -20,7 +20,8 @@ position: relative;
 .header-contacts{
 display: flex;
 margin-left: auto;
-margin-right: auto;
+position: relative;
+/*margin-right: auto;*/
 }
 .contacts-list{
 display: block;
@@ -171,42 +172,68 @@ color:var(--primery-text-color);
     color: var(--secondary-title-color);
     margin-bottom: 50px;
     }
-    .representation-item{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
-    } 
-    .representation-item-img{
-    margin-left: 30px;
-    margin-top: 30px;
-    width:100%;
-    width: calc(100% / 3 - 30px);
-    position: relative;
-    overflow: hidden;
-    }    
-    .representation-top-text{
-    text-align: center;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 2;
-    color: var(--primary-title-color);
-    background-color: rgba(47, 48, 58, 0.8);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 24px;
-    text-transform: uppercase;
-    }
+.representation-item{
+display: flex;
+flex-wrap: wrap;
+ margin-left: -30px;
+margin-top: -30px;
+} 
+.representation-item-img{
+margin-left: 30px;
+margin-top: 30px;
+width:100%;
+width: calc(100% / 3 - 30px);
+position: relative;
+overflow: hidden;
+}    
+.representation-top-text{
+text-align: center;
+font-weight: 700;
+font-size: 14px;
+line-height: 2;
+color: var(--primary-title-color);
+background-color: rgba(47, 48, 58, 0.8);
+position: absolute;
+bottom: 0;
+width: 100%;
+padding: 24px;
+text-transform: uppercase;
+}
 /*--------------------------------------*/
     
 
-    .position{
-    width: calc(100% / 4 - 30px);
-    }
-
-    .client-item{
-        width: calc(100% / 6 - 30px);
-    }
+.position{
+width: calc(100% / 4 - 30px);
 }
 
+    .client-item{
+width: calc(100% / 6 - 30px);
+}
+
+
+/*---------------------------------------------*/
+.footer{
+background-color:var(--color-footer);
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.footer-item
+
+.footer{
+    background-color:var(--color-footer);
+    min-width: 320px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.footer-right{
+margin-left: auto;
+}
+.header-list-footer{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color:var(--adre-contacts);
+font-style: normal;
+} 
+}
