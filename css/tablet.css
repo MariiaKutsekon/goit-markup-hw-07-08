@@ -83,6 +83,9 @@
         display: block;
         bottom: -1px;
         }
+        .menu-open{
+            display: none;
+        }
         /*---------------ховери та фокус------------------*/
         .header-contacts-link:hover,.header-link:hover,
         .header-contacts-link:focus,.header-link:focus,.current-link
