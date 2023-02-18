@@ -21,6 +21,9 @@ display: block;
     /* margin-right: auto;*/
             
 }
+.header-navigations .logo{
+    margin-right: 94px;
+    }
 .contacts-list{
 display: block;
 margin-bottom: 10px;
@@ -123,18 +126,13 @@ margin-left: 30px;
 margin-top: 30px;
 }
 .advantage-title-text{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    line-height: 1.11;
-    font-size: 36px;
-    color: var(--secondary-title-color);
-    text-transform: capitalize;
-    margin-bottom: 8px;
-    font-style: normal;
-    justify-content: center;
-    align-items: center;
-    }
-menu-open
+min-width: 134px;
+min-height: 24px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: start;
+}
 /*----------------------------------------------*/
     
 .team{
@@ -178,6 +176,57 @@ display: flex;
     align-items: center;  
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+    .footer-item-list{
+        display: flex;
+        align-items: center;
+        justify-content:center;
 }
-
+.footer-text-input{
+    display: block;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-title-color);
+    margin-bottom: 20px;
+    }
+    .footer-right{
+        display: block;
+        text-align:left;  
+    }
+    .footer-btn{
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.87;
+        background-color: var(--accent-color);
+        border-radius: 4px;
+        border: none;
+        color: var(--primary-title-color);  
+        padding: 10px 28px;
+        margin-left: 10px;
+        cursor: pointer;
+        align-items: center;  
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    /*---------------------------------------*/
+    .footer .logo{
+        margin-bottom: 72px;
+        }
+    .logo{
+        display: block;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        text-transform:uppercase;
+        color: var(--accent-color);
+        }
+        .logo-web{ 
+        color:var(--secondary-title-color);
+        }
+        .logo-web-footer
+        {color:var(--primary-title-color);
+        }
+}
     
