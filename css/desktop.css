@@ -105,14 +105,14 @@ Width: 1440px;
 Height: 600px;
 padding-top: 200px;
 padding-bottom: 200px; 
-background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images/hero.img/hero-bg-dask.jpg);   
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 .box {
-background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url(../images/hero.img/img-2x/Dark-desk-bg-2x.jpg);
 }
 }
@@ -218,23 +218,17 @@ width: calc(100% / 6 - 30px);
 /*---------------------------------------------*/
 .footer{
 background-color:var(--color-footer);
+min-width: 320px;
 padding-top: 60px;
 padding-bottom: 60px;
 }
-.footer-item
 
 .footer-input{
 margin-left: auto;
 }
 
 
-.footer{
-    background-color:var(--color-footer);
-    min-width: 320px;
-    padding-top: 60px;
-    padding-bottom: 60px;
 
-}
 .footer-right{
 margin-left: auto;
 }
@@ -249,7 +243,7 @@ font-style: normal;
     display: flex;
     padding: 15px 16px;
     width: 358px;
-    height: 50px;
+    height: 40px;
     color: var(--primary-title-color);
     background-color: transparent;
     box-sizing: border-box;
