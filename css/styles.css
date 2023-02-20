@@ -80,18 +80,17 @@ font-family: inherit;
 
 /*----------------контакти верхни завершно------------------*/
 .header-conteiner{
-max-width: 428px;
 align-items: center;
 display: flex;
 justify-content: center;
 padding-right: 26px;
 align-items: center;
-margin-right: auto;
-margin-right: auto;
+
 }
 .header-navigations{
 align-items: center;
 display: flex;
+margin-right: auto;
 }
 .header-list, .contacts-list, 
 .contacts-icon, .header-item{

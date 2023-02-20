@@ -11,12 +11,13 @@ border: 1px solid var(--accent-color);
 position: relative;
 border: none;
 } 
-.header-navigations{
-    align-items: center;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    }
+.header-conteiner{
+align-items: center;
+display: flex;
+justify-content: center;
+
+align-items: center;
+}
 .header-link{
 display: block;
 font-size: 18px;
@@ -60,7 +61,6 @@ display: block;
 .header-item:not(:last-child){
  margin-right: 50px;
 }
-
 .logo-item{
 margin-right: 80px;
 }
@@ -157,12 +157,13 @@ background-color: var(--color-btn);
 
 /*-----------------------------------------------*/
 .conteiner-section{
-width: 582px; 
+width: 582px;
+   
 }
 /*---------------------------------------------------*/
     
 .position{
-width: calc((100% - 48px) / 2);
+width: calc((100% - 48px) - 60px);
 }
 .client-item{
 width: calc((100% - 48px) / 3);

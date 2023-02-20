@@ -11,47 +11,127 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 
 <body>
     <header class="header">
-        <div class="conteiner header-conteiner">
+
+        <div class="header-conteiner section">
         <nav class="header-navigations">
             <a href="" class="logo link">
             Web<span class="logo-web">Studio</span></a>
-        
-            <ul class="header-list list">
-                <li class="header-item">
-                    
-                <a href="./index.html" class="header-link link ">Studio</a>
-                </li> 
-                <li class="header-item">
-                <a href="./portfolio.html" class="header-link current-link current link">Portfolio</a>
-                </li>
-                <li class="header-item">
-                <a href="" class="header-link link">Contacts</a>
-                </li>
-            </ul>
-                </nav>
-        
+        </nav>
+        <ul class="header-list list">
+        <li class="header-item">   
+        <a href="./index.html" class="header-link link current-link current">Studio</a>
+        </li> 
+        <li class="header-item">
+        <a href="./portfolio.html" class="header-link link">Portfolio</a>
+        </li>
+        <li class="header-item">
+        <a href="" class="header-link link">Contacts</a>
+        </li>
+        </ul>
         
         
         <ul class="header-contacts list">
         <li class="contacts-list">
-        <a class="header-mail header-contacts-link link" href="meilto:info@devstudio.com"><svg class="contacts-icon" width="16" height="12">
+        <a class="header-mail header-contacts-link link" 
+        href="meilto:info@devstudio.com">
+        <svg class="contacts-icon" width="16" height="12">
         <use href="./images/sprite.svg#icon-envelope2"></use>
         </svg>info@devstudio.com</a>
         </li>
         
         <li class="contacts-list"> 
-        
-        <a class="header-tel header-contacts-link link" href="tel:+380961111111"><svg class="contacts-icon" width="10" height="16">
+        <a class="header-tel header-contacts-link link" 
+        href="tel:+380961111111"><svg class="contacts-icon" 
+        width="10" height="16">
         <use href="./images/sprite.svg#icon-smartphone2"></use>
-            </svg>+38 096 111 11 11</a></li></ul>  
+        </svg>+38 096 111 11 11</a></li></ul>  
+        
+         
+        
+        <button type="button" class="mob-menu-open" data-menu-open>
+        <svg class="menu-open-icon" width="26" height="25">
+        <use href="./images/sprite.svg#icon-menu-opensprite"></use></svg>
+        </button>
+        
+            
+        <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-conteiner">
+        <div class="mob-menu-top">
+        <button type="button" class="menu-close" data-menu-close>
+        <svg class="menu-close-icon" width="8" height="8">
+        <use href="./images/sprite.svg#icon-close-mob"></use></svg>
+        </button>
+            
+        <ul class="mob-menu-list list">
+        <a href="./index.html" class="mob-menu-link link">Studio</a>
+        <li class="mob-menu-item">   
+        </li> 
+        <li class="mob-menu-item">
+        <a href="./portfolio.html" class="mob-menu-link link">Portfolio</a>
+        </li>
+        <li class="mob-menu-item">
+        <a href="" class="mob-menu-link link">Contacts</a>
+        </li>
+        </ul>
+        </div>  
+        <div class="mob-menu-bottom">
+            <ul class="mob-menu-contacts ">                 
+                <li class="mob-contacts-list list"> 
+                <a class="mob-menu-tel mob-menu-contacts-link link" 
+                href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="mob-contacts-list list">
+                <a class="mob-menu-mail mob-menu-contacts-link link " 
+                href="meilto:info@devstudio.com">info@devstudio.com</a>
+            </li></ul>   
+            
+                <ul class="mob-item-list mob-social-list list">
+                <li class="mob-social-item">
+                <a href="" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-instagram"></use>        
+                </svg>
+                </a>
+                </li>
+                <li class="mob-social-item">
+                <a href="" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+                </a>
+                </li>
+                                                       
+                <li class="mob-social-item">
+                <a href="" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+                </a>
+                </li>
+                                                
+                <li class="mob-social-item">
+                <a href="" class="social-link">
+                <svg class="social-icon" width="20" height="20">
+                <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+                </a>
+                </li>
+                </ul>
+                </ul>
+        </div>           
         </div>
+        </div>
+        
+        </div>
+        
+        
+        
         </header>
-
     
 <main>   
 <section class="section">
