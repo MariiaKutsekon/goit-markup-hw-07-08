@@ -143,9 +143,7 @@ margin-right: auto;
 }
 
 .advantage-title{
-width: calc(100% / 2 - 60px);
-margin-left: 30px;
-margin-top: 30px;
+width: calc(100% / 2 - 30px);
 }
 .advantage-title-text{
 min-width: 134px;
@@ -244,9 +242,11 @@ color: var(--primary-title-color);
 margin-bottom: 20px;
 }
 .header-list-footer{
-        font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
     line-height: 1.71;
-    color:#E7E9FC;
+    color: #E7E9FC;
     font-style: normal;
     width: 264px;
     letter-spacing: 0.02em;
