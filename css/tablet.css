@@ -157,17 +157,20 @@ background-color: var(--color-btn);
 
 /*-----------------------------------------------*/
 .conteiner-section{
-    
+width: 582px;
+   
 }
 /*---------------------------------------------------*/
     
 .position{
-width: calc(100% / 2 - 60px);
+width: calc((100% - 48px) / 2);
 }
 .client-item{
-width: calc(100% / 3 - 30px);
+width: calc((100% - 48px) / 3);
 }
+.client-item{
 
+}
 
 /*-------------------------------------------------*/
 
