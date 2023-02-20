@@ -176,20 +176,20 @@ width: calc(100% / 3 - 30px);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap: 72px 24px ;
+    gap: 72px 27px ;
     align-items: baseline;
-           
 }
 /*flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
 
 */
+.footer-input{
+margin-top: -72px;
+}
 .footer-input-span{
 display: flex;
 width: 100%;
-
 }
 .footer-btn{
     display: flex;
@@ -219,6 +219,7 @@ font-size: 16px;
 font-weight: 500;
 color: var(--primary-title-color);
 margin-bottom: 20px;
+
 }
 
 .footer-right{
