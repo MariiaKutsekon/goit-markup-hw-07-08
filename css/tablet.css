@@ -217,8 +217,15 @@ display: flex;
 align-items: center;
 justify-content:center;
 }
+.footer-text{
+display: block;
+text-align: start;
+justify-content: center;
+}
+
 .footer-text-input{
 display: block;
+text-align: start;
 text-transform: uppercase;
 line-height: 1.5;
 font-size: 16px;
@@ -253,7 +260,7 @@ margin-bottom: 16px;
 }
     .logo{
         display: block;
-        text-align: center;
+        text-align: start;
         justify-content: center;
         font-family:'Raleway', sans-serif;
         font-weight: 800;
