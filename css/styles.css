@@ -624,6 +624,8 @@ margin-bottom: 16px;
 }
 
 .header-list-footer{
+margin-left: auto;
+margin-right: auto;
 font-size: 14px;
 line-height: 1.71;
 color:#E7E9FC;
@@ -635,6 +637,7 @@ margin-top: 16px;
 
 .footer-li:not(:last-child){
 margin-bottom: 16px;
+text-align: center;
 }
 
 
