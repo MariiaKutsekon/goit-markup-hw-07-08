@@ -11,13 +11,12 @@ border: 1px solid var(--accent-color);
 position: relative;
 border: none;
 } 
-.header-conteiner{
-align-items: center;
-display: flex;
-justify-content: center;
-
-align-items: center;
-}
+.header-navigations{
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    }
 .header-link{
 display: block;
 font-size: 18px;
@@ -61,6 +60,7 @@ display: block;
 .header-item:not(:last-child){
  margin-right: 50px;
 }
+
 .logo-item{
 margin-right: 80px;
 }
