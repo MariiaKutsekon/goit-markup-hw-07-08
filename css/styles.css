@@ -278,7 +278,8 @@ color: #2E2F42;
 margin-bottom: 72px;
 }*/
 .logo{
-display: flex;
+display: block;
+text-align: center;
 justify-content: center;
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -726,9 +727,9 @@ letter-spacing: 0.03em;
 color: var(--client-color);
 }
 
-.footer-input-span{
+/*.footer-input-span{
 display: block;
-}
+}*/
 
 .footer-in-email{
 width: 290px;
@@ -751,7 +752,7 @@ border-color: var(--accent-color);
 .footer-btn{
   margin-right: auto;
   margin-left: auto;
-  flex-direction: row;
+  
   align-items: center;
   justify-content: center;
   text-align: center;
