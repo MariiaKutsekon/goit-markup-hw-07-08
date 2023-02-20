@@ -759,9 +759,9 @@ margin-bottom: 30px;
 border-color: var(--accent-color);
 }
 .footer-btn{
+    display: flex;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
   align-items: center;
   justify-content: center;
   text-align: center;
