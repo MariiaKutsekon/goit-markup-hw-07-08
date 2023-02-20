@@ -58,6 +58,7 @@ padding-top: 24px;
 padding-bottom: 24px;
 border: 1px solid var(--accent-color);
 position: relative;
+border: none;
 } 
 
 
@@ -66,8 +67,8 @@ position: relative;
 .conteiner{
 /*width: 1200px; */
 width: 100%;
-padding-top: 24px;
-margin:  0 auto;
+margin-left:  auto;
+margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
 font-family: inherit;
@@ -83,6 +84,7 @@ align-items: center;
 display: flex;
 justify-content: center;
 padding-right: 26px;
+align-items: center;
 }
 /*.header-navigations .logo{
 margin-right: 94px;
@@ -91,6 +93,8 @@ margin-right: 94px;
 .header-navigations{
 align-items: center;
 display: flex;
+margin-left: auto;
+margin-right: auto;
 }
 
 .header-list, .contacts-list, 
@@ -176,6 +180,7 @@ background-color: transparent;
 border: none;
 padding: 0 auto;
 margin-left: auto;
+margin-right: auto;
 } 
 .mob-menu{
 position: fixed;
