@@ -1,6 +1,6 @@
 @media screen and (min-width:1200px) {
     .conteiner{
-    width: 1200px; 
+    width: 1158px; 
     }
     /*---------------------*/
 
@@ -243,11 +243,14 @@ padding-bottom: 60px;
 margin-left: auto;
 }
 
-
+.footer-left{
+margin-bottom: 72px;
+}
 
 .footer-right{
 margin-left: auto;
 }
+
 .header-list-footer{
 font-weight: 400;
 font-size: 14px;

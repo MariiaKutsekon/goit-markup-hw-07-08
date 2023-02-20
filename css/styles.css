@@ -180,7 +180,7 @@ background-color: transparent;
 border: none;
 padding: 0 auto;
 margin-left: auto;
-margin-right: auto;
+
 } 
 .mob-menu{
 position: fixed;
@@ -610,7 +610,6 @@ fill: currentColor;
 /*-----------------footer------------------*/
 
 .footer{
-display: flex;
 justify-content: center;
 background-color:var(--color-footer);
 min-width: 320px;
@@ -650,11 +649,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .footer-item {
-display: flex;
 align-items: baseline;
 justify-content: center;
 align-items: center;
-flex-wrap: wrap;
 
 }
 .footer-left{
@@ -734,7 +731,6 @@ display: block;
 }
 
 .footer-in-email{
-display: flex;
 width: 290px;
 height: 40px;
 padding: 15px 16px;
@@ -753,7 +749,6 @@ margin-bottom: 30px;
 border-color: var(--accent-color);
 }
 .footer-btn{
-display: flex;
   margin-right: auto;
   margin-left: auto;
   flex-direction: row;
@@ -810,7 +805,6 @@ background-color: var(--accent-color-modal-btn);
 
 
 .footer-text-input{
-display: flex;
 justify-content: center;
 text-transform: uppercase;
 line-height: 1.5;
