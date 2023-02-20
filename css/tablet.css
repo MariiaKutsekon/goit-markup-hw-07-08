@@ -15,7 +15,7 @@ border: none;
 align-items: center;
 display: flex;
 justify-content: center;
-padding-right: 26px;
+
 align-items: center;
 }
 .header-link{
@@ -34,11 +34,11 @@ position: relative;
 .header-contacts{
 display: block;
 margin-left:auto;
-margin-right:auto;      
+     
 }        
-.contacts-list:not(:last-child){
+/*.contacts-list:not(:last-child){
 margin-right: 50px;
-}           
+}  */         
 .header-contacts-link{
 display: flex;
 align-items: center;
