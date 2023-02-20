@@ -216,7 +216,14 @@ width: calc(100% / 4 - 30px);
 width: calc(100% / 6 - 30px);
 }
 
-
+.client-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
 /*---------------------------------------------*/
 .footer{
 background-color:var(--color-footer);
@@ -224,7 +231,14 @@ min-width: 320px;
 padding-top: 60px;
 padding-bottom: 60px;
 }
-
+.footer-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    }
 .footer-input{
 margin-left: auto;
 }
