@@ -169,7 +169,7 @@ width: calc(100% / 3 - 30px);
 /*-------------------------------------------------*/
 
 .footer-item {
-min-width: 768px;
+width: 768px;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
