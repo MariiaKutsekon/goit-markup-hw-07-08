@@ -168,9 +168,8 @@ margin-left: 0;
 padding-left: 15px;
 padding-right: 15px;
 font-family: inherit; 
-font-family: inherit; 
-font-family: inherit;
-
+margin-left: auto;
+margin-right: auto;
 }
 .mob-menu-open {
 padding: 0;
