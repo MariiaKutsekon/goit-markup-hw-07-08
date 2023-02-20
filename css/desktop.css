@@ -103,8 +103,8 @@ color: var(--accent-color);
 
 /*----перша секц HERO----------*/
 .section-hero{
-Width: 1440px;
-Height: 600px;
+min-width: 428px;
+max-width: 1440px;
 padding-top: 200px;
 padding-bottom: 200px; 
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),

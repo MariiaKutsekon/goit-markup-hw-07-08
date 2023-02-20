@@ -303,7 +303,8 @@ padding-bottom: 94px;
 }
 
 .section-hero{
-Width:auto;
+    min-width: 428px;
+    max-width: 1440px;
 /*height:600px;*/
 margin-left: auto;
 margin-right: auto;
