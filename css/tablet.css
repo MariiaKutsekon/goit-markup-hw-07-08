@@ -211,7 +211,7 @@ width: 100%;
     text-align: start;
     }
 
-}
+
 .footer-item-list{
 display: flex;
 align-items: center;
@@ -260,8 +260,7 @@ margin-bottom: 16px;
 }
     .logo{
         display: block;
-        text-align: start;
-        justify-content: start;
+        text-align: left;       
         font-family:'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -275,5 +274,5 @@ margin-bottom: 16px;
         .logo-web-footer
         {color:var(--primary-title-color);
         }
-
+    }
     

@@ -663,14 +663,14 @@ align-items: center;
 .footer-left{
 margin-bottom: 72px;
 }
-.footer-right{
+/*.footer-right{
 display: block;
 text-align:center;
-}
+}*/
 
 .footer-text{
- text-align: center;   
-    
+display: block;
+text-align: center;    
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -734,9 +734,11 @@ letter-spacing: 0.03em;
 color: var(--client-color);
 }
 
-/*.footer-input-span{
+.footer-input-span{
 display: block;
-}*/
+text-align: center;
+justify-content: center;
+}
 
 .footer-in-email{
 width: 290px;
@@ -759,7 +761,7 @@ border-color: var(--accent-color);
 .footer-btn{
   margin-right: auto;
   margin-left: auto;
-  
+  text-align: center;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -809,6 +811,8 @@ background-color: var(--accent-color-modal-btn);
     margin-left: 10px; 
 }
 .footer-text-input{
+display: block;
+text-align: center;
 justify-content: center;
 text-transform: uppercase;
 line-height: 1.5;
