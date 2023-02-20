@@ -156,7 +156,10 @@ background-color: var(--color-btn);
 }           
 
 /*-----------------------------------------------*/
-
+.conteiner-section{
+    
+}
+/*---------------------------------------------------*/
     
 .position{
 width: calc(100% / 2 - 60px);
@@ -169,12 +172,13 @@ width: calc(100% / 3 - 30px);
 /*-------------------------------------------------*/
 
 .footer-item {
-width: 768px;
+width: 582px;
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 gap: 72px 27px ;
 align-items: baseline;
+justify-content: left;
 }
 /*flex-direction: row;
 flex-wrap: wrap;
