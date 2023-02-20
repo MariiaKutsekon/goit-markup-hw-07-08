@@ -163,7 +163,7 @@ width: 582px;
 /*---------------------------------------------------*/
     
 .position{
-width: calc((100% - 48px) - 60px);
+width: calc((100% - 48px) / 2);
 }
 .client-item{
 width: calc((100% - 48px) / 3);
