@@ -1,6 +1,6 @@
 @media screen and (min-width:768px) {
 .conteiner{
-width: 750px; 
+width: 767px; 
 }
 
 .header{
@@ -154,9 +154,10 @@ line-height: 1.2;
 text-align: start;
 }
 .conteiner-advantage{
-    min-width: 428px;
+    min-width: 768px;
     max-width: 1440px;
     /*height:600px;*/
+    padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -243,15 +244,8 @@ margin-bottom: 20px;
 }
 .header-list-footer{
     margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
-    line-height: 1.71;
-    color: #E7E9FC;
-    font-style: normal;
-    width: 264px;
-    letter-spacing: 0.02em;
-    margin-top: 16px;
-    }
+    margin-right: auto;  
+    max-width: 768px;}
 
 
 .footer-btn{
